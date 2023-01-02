@@ -1,0 +1,25 @@
+// @import 'bootstrap';
+html,
+body {
+  height: 100%;
+}
+.navbar{
+  // background-color: red !important;
+  .navbar-brand{
+    font-size: 27px;
+    letter-spacing: -1px;
+  }
+}
+#home{
+  background-image: asset-url('jumbo.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  height: 425px;
+}
+
+
+#page-content {
+  flex: 1 0 auto;
+  background: lightgray;
+}
